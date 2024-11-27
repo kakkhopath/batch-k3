@@ -21,3 +21,9 @@
 ### Extends app.blade.php to pages above 
 
 ### Show the basic use of routes such grouping, navigating, parameter, route name etc.
+
+### Laravel Layout Component 
+<div><img src='/laravel-component-layout-code.png'></div>
+<div>
+    <a href="/views.zip" download>Download View</a>
+</div>
