@@ -2,7 +2,7 @@
 
 ## Assignment 01 Date: 11/27/2024
 
-### 1. Create a layouts
+### 1. Create a layouts, app template and template part by following instruction
 #### Instruction:
 <p>views<p>
 <p>-layouts<p>
@@ -10,4 +10,14 @@
 <p>--header.blade.php<p>
 <p>--footer.blade.php <p>
 
+#### Define yeild, stack to app.blade.php
 
+
+### 1. Create page using blade file
+<p>views</p>
+<p>-home.blade.php</p>
+<p>-product.blade.php</p>
+
+### Extends app.blade.php to pages above 
+
+### Show the basic use of routes such grouping, navigating, parameter, route name etc.
