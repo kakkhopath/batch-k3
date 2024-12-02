@@ -1,7 +1,41 @@
 @extends('layouts.app')
 @section('title',$title)
 @section('content')
+@php
+$data=true;
+@endphp
 <section class="d-flex justify-content-center py-3">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+    <!--Print Larvel Data-->
+    <h1 style="text-align: center"> Welcome To {{$title}}</h1>
 </section>
+<section class="d-flex justify-content-center py-3">
+    <!--if...else statment-->
+    <div style="text-align:center">
+        @if ($data === true)
+        We are the students of "Kakkhopath" !
+        @elseif ($data === false)
+        We are not the students of "Kakkhopath" !
+        @else
+        Welcome To "Kakkhopath" !
+        @endif
+    </div>
+</section>
+<section class="d-flex justify-content-center py-3">
+    <!--isset-->
+    <div style="text-align:center">
+        @isset($data)
+        Kakkhopath is good institute for online learning
+        @endisset
+    </div>
+</section>
+
+<section class="d-flex justify-content-center py-3">
+    <!--Empty -->
+    <div style="text-align:center">
+        @isset($data)
+        Kakkhopath is good institute for online learning
+        @endisset
+    </div>
+</section>
+
 @endsection
