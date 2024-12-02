@@ -23,9 +23,11 @@ class HomeController extends Controller {
     }
 
     //Services Page
-    public function services() {
+    public function services($value) {
+        $value='View '.$value;
         $data = [
             'title' => 'Service Page',
+            'value' => $value,
         ];
         return view('pages.service', $data);
     }
