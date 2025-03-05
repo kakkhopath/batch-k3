@@ -60,3 +60,21 @@
 - [ ] path:'/about' route:about
 - [ ] path:'/portfolio' route:portfolio
 - [ ] Use Master layout to every page
+
+### Assignment Submission Instruction
+
+```git
+git clone https://github.com/kakkhopath/batch-k3
+Show All Branch command: git branch -a
+Switch You own Branch command: git checkout <your_branch_name>
+Check your branch: git branch
+Now navigate to assignment directory
+just use this command: cd assignment
+from your terminal
+Now get start your assignment
+
+If assignment done then use this command
+git add .
+git commit -m "Explain here what you have done"
+git push origin <your_branch_name>
+```
