@@ -66,7 +66,7 @@
 ```git
 git clone https://github.com/kakkhopath/batch-k3
 
-Navigate to branch: cd batch-k3
+Navigate to project directory from terminal: cd batch-k3
 Show All Branch command: git branch -a
 Switch You own Branch command: git checkout <your_branch_name>
 Check your branch: git branch
