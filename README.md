@@ -31,7 +31,7 @@
     <a href="/views.zip" download>Download View</a>
 </div>
 
-## Assignment
+## Assignment 02
 
 ### Layout Mastering Assignment
 
